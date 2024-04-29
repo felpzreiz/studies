@@ -52,6 +52,8 @@ html {
 }
     </style>
 
+    <script type="text/javascript" src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -61,23 +63,5 @@ html {
         <span class="bar">|</span>
     </div>
 
-
-    <script>
-
-        let i = 0;
-        let message = "oi, quer sair comigo? ";
-
-
-        typing();
-
-        function typing(){
-            if (i < message.length){
-            document.getElementById('text').innerHTML += message.charAt(i);
-            i++;
-            setTimeout(typing, 100);
-            }
-        }
-
-    </script>
 </body>
 </html>
