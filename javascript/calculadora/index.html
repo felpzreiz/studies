@@ -8,32 +8,46 @@
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-    <div>
-        <input id="c" type="button" value="C">
-        <input id="par" type="button" value="()">
-        <input id="3" type="button" value="3">   
-        <input id="soma" type="button" value="+" onclick="soma()">
+    <form class="visor">
+        <input type="text" name="display" id="display">
+        <input type="reset" value="C" onclick="resetar()">
+    </form>
+
+    <div class="space"></div>
+
+    <div class="keyboard">
+        <input id="igual" type="button" value="=" onclick="resultado()">
+        <input id="par1" type="button" value="(" onclick="valor(this.id)">
+        <input id="par2" type="button" value=")" onclick="valor(this.id)">   
+        <input id="101" type="button" value="+" onclick="operacao(this.id)">
 
         <div class="space"></div>
         
-        <input id="1" type="button" value="1">
-        <input id="2" type="button" value="2">
-        <input id="3" type="button" value="3">   
-        <input id="soma" type="button" value="+" onclick="soma()">
+        <input id="1" type="button" value="1" onclick="valor(this.id)">
+        <input id="2" type="button" value="2" onclick="valor(this.id)">
+        <input id="3" type="button" value="3" onclick="valor(this.id)">   
+        <input id="102" type="button" value="-" onclick="operacao(this.id)">
 
         <div class="space"></div>
 
-        <input id="4" type="button" value="1">
-        <input id="5" type="button" value="2">
-        <input id="6" type="button" value="3">   
-        <input id="soma" type="button" value="+" onclick="soma()">
+        <input id="4" type="button" value="4" onclick="valor(this.id)">
+        <input id="5" type="button" value="5" onclick="valor(this.id)">
+        <input id="6" type="button" value="6" onclick="valor(this.id)">   
+        <input id="103" type="button" value="x" onclick="operacao(this.id)">
 
         <div class="space"></div>
 
-        <input id="7" type="button" value="7">
-        <input id="8" type="button" value="8">
-        <input id="9" type="button" value="9">   
-        <input id="soma" type="button" value="+" onclick="soma()">
+        <input id="7" type="button" value="7" onclick="valor(this.id)">
+        <input id="8" type="button" value="8" onclick="valor(this.id)">
+        <input id="9" type="button" value="9" onclick="valor(this.id)">   
+        <input id="104" type="button" value="/" onclick="operacao(this.id)">
+
+        <div class="space"></div>
+
+        <input id="" type="button" value=" " onclick="">
+        <input id="0" type="button" value="0" onclick="valor(this.id)">
+        <input id="" type="button" value=" " onclick="">   
+        <input id="" type="button" value=" " onclick="secret()">
 
 
     </div> 
