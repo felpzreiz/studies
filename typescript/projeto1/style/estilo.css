@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#corpo {
+    transition: 0.5s;
+}
+
+.box{
+    margin-top: 100px;
+    width: 80%;
+}
+
+.box img{
+    width: 10%;
+}
+
+@media (max-width: 500px) {
+    .box img{
+        width: 25%;
+    }
+  }
+
+input[type=button]{
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    background: black;
+    border: 1px white solid;
+    transition: all 5s;
+    color: white;
+}
+
+input[type=button]:active{
+    width: 60px;
+    height: 25px;
+    background: white;
+}
+
+#glow {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px brown, 0 0 40px brown, 0 0 50px brown, 0 0 60px brown, 0 0 70px brown, 0 0 80px brown;
+    }
+  }
