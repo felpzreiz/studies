@@ -6,5 +6,5 @@ var botao = document.querySelector("button")
 var resultado = document.getElementById("result")
 
 botao.onclick = () => {
-    resultado.innerText = ("Oii")
+    resultado.innerText = somar(num1, num2)
 }
