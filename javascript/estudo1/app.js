@@ -5,6 +5,4 @@ var num2 = Number(prompt("Insira o segundo número: "))
 var botao = document.querySelector("button")
 var resultado = document.getElementById("result")
 
-botao.onclick = () => {
-    resultado.innerText = somar(num1, num2)
-}
+console.log(somar(num1, num2))
