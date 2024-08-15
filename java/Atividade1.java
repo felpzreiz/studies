@@ -12,7 +12,7 @@ public class Atividade1 {
     public int converterDias(){
        return ((ano * 365)+(mes * 30)+dia);
     }
-
+    
     public static void main(String[] args) {
 
         Atividade1 pessoa = new Atividade1(10,2,3);
