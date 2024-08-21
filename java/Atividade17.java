@@ -6,7 +6,7 @@ public class Atividade17{
     double p1, e1, e2, api, x, sub;
 
     public void calcular(){
-        double media = (p1*0.6+((e1+e2)/2)*0.4)*0.5+(max(((p1*0.6+((e1+e2)/2)*0.4)-5.9),0)/((p1*0.6+((e1+e2)/2)*0.4)-5.9))*(api*0.5)+x+(sub*0.2);
+        double media = (p1*0.6+((e1+e2)/2)*0.4)*0.5+(Math.max(((p1*0.6+((e1+e2)/2)*0.4)-5.9),0)/((p1*0.6+((e1+e2)/2)*0.4)-5.9))*(api*0.5)+x+(sub*0.2);
         System.out.println("MEDIA FINAL:" + media);
     }
 
