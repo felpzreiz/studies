@@ -1,15 +1,15 @@
 package org.example;
 
 public class Atividade16 {
-    int n1, n2, n3;
+    double n1, n2, n3;
 
-    public Atividade16(int jan, int fev, int mar) {
+    public Atividade16(double jan, double fev, double mar) {
         this.n1 = jan;
         this.n2 = fev;
         this.n3 = mar;
     }
 
-    public int calcularTotal(){
+    public double calcularTotal(){
        return ((n1+n2+n3) * 1000);
     }
 
