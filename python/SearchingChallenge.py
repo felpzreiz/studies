@@ -22,7 +22,7 @@ def SearchingChallenge(strParam):
 
                 soma_rep.append(0)
 
-                for j in range(25):
+                for j in range(26):
 
                     rep = palavra[i].count(alfabeto[j])
 
