@@ -1,4 +1,4 @@
-const dataFinal = new Date('June 1, 2024 00:00:00').getTime();
+const dataFinal = new Date('October 13, 2024 00:00:00').getTime();
 
 // Função para atualizar a contagem regressiva
 function atualizarContagemRegressiva() {
