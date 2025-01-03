@@ -20,7 +20,7 @@ function atualizarContagemRegressiva() {
   document.getElementById('minutos').innerText = minutos;
   document.getElementById('segundos').innerText = segundos;
 
-  if (segundos%6 == 0 && milissegundos == 50){
+  if (segundos%6 == 0 && milissegundos%200 == 0){
     mudarImagem();
   }
 }
