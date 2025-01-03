@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  font-family: "Archivo", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  color: #265173;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#titulo {
+  font-size: 2em;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#contagem ul {
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: block;  
+  font-size: 1em;
+  list-style-type: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+li span {
+  display: block;
+  font-style: italic;
+  font-size: 3.5rem;
+  color: #002e54;
+}
+
+.space{
+    height: 100px;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 1.5rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2); 
+  height: 350px;
+}
+
+.polaroid > img{
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.caption {
+  font-family: "Caveat", serif;
+  text-transform: lowercase;
+  font-weight: lighter;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.4em;
+}
+
+.item {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.item:nth-of-type(4n+1) {
+  transform: scale(0.8, 0.8) rotate(5deg);
+  transition: all 0.35s;
+}
